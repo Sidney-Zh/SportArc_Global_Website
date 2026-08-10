@@ -8,13 +8,13 @@
 /assets/site.js
   Cache-Control: public, max-age=3600, must-revalidate
 
-/assets/site.20260530-2332.css
+/assets/site.20260810.css
   Cache-Control: public, max-age=31536000, immutable
 
-/assets/site.20260530-2332.js
+/assets/site.20260810.js
   Cache-Control: public, max-age=31536000, immutable
 
-/assets/icon-128.png
+/assets/AppIcon_cornor-128.png
   Cache-Control: public, max-age=31536000, immutable
 
 /assets/icon-128.webp
@@ -23,7 +23,7 @@
 /pictures/*
   Cache-Control: public, max-age=31536000, immutable
 
-/icon.png
+/AppIcon_cornor.png
   Cache-Control: public, max-age=31536000, immutable
 
 /robots.txt

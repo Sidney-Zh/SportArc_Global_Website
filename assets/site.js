@@ -1,4 +1,5 @@
 const SUPPORTED_LOCALES = ["en", "zh-CN", "zh-TW", "de", "fr", "ja", "ko"];
+const APP_NAME = "SportArc";
 const SCREENSHOT_WIDTH = 828;
 const SCREENSHOT_HEIGHT = 1792;
 const RESPONSIVE_IMAGE_WIDTHS = [420, 640, 828];
@@ -49,15 +50,15 @@ const APP_STORE_URL = "https://apps.apple.com/app/id6768219425";
 
 const COPY = {
   en: {
-    pageTitle: "SportArc - AI table tennis assistant",
+    pageTitle: "SportArc - AI sports assistant",
     navCta: "App Store",
-    heroEyebrow: "AI table tennis assistant",
+    heroEyebrow: "AI sports assistant",
     heroTitleA: "Review matches.",
     heroTitleB: "Improve faster.",
-    heroLead: "SportArc turns one phone video into AI Coach feedback, Match Review data, and clean Auto Cut clips. Built for players who want useful answers after every session.",
+    heroLead: "SportArc turns one phone video into AI Coach feedback, Match Review data, and clean Auto Cut clips. Built for athletes who want useful answers after every session.",
     appStore: "Download on the App Store",
     statTitle: "One phone is enough",
-    statText: "Record, review, export, and keep your table tennis progress in one place.",
+    statText: "Record, review, export, and keep your sports progress in one place.",
     featuresKicker: "Three tools, one workflow",
     featuresTitle: "From raw video to clear next steps.",
     featuresCopy: "Use SportArc after training or a match. It keeps the flow simple: choose a video, run the analysis, then review the result in the app.",
@@ -66,7 +67,7 @@ const COPY = {
     galleryCopy: "Swipe through the key screens: recording, AI Coach, Match Review, and Auto Cut.",
     closingKicker: "Built for real practice",
     closingTitle: "No social feed. No busy dashboard.",
-    closingCopy: "SportArc focuses on the parts that help a table tennis player: technique feedback, match data, and clips worth saving.",
+    closingCopy: "SportArc focuses on the parts that help athletes improve: technique feedback, match data, and clips worth saving.",
     socialTitle: "Contact",
     contact: "Support: support@sportarc.ai",
     copyright: "© 2026 SportArc",
@@ -81,15 +82,15 @@ const COPY = {
     ]
   },
   "zh-CN": {
-    pageTitle: "SportArc - AI 乒乓球助手",
+    pageTitle: "SportArc - AI 运动助手",
     navCta: "App Store",
-    heroEyebrow: "AI 乒乓球助手",
+    heroEyebrow: "AI 运动助手",
     heroTitleA: "复盘比赛。",
     heroTitleB: "更快进步。",
     heroLead: "SportArc 用一部手机完成 AI教练、比赛复盘和自动剪辑。训练后、比赛后，把视频交给它，留下真正有用的结果。",
     appStore: "在 App Store 下载",
     statTitle: "一部手机就够",
-    statText: "录制、分析、导出、回看，把乒乓球训练进度放在同一个地方。",
+    statText: "录制、分析、导出、回看，把运动训练进度放在同一个地方。",
     featuresKicker: "三个功能，一个流程",
     featuresTitle: "从原始视频，到清楚的下一步。",
     featuresCopy: "训练或比赛结束后，选择视频，运行分析，再回到结果页查看数据、建议和可导出的内容。",
@@ -98,7 +99,7 @@ const COPY = {
     galleryCopy: "左右滑动浏览录制、AI教练、比赛复盘和自动剪辑等核心界面。",
     closingKicker: "为真实训练设计",
     closingTitle: "不是社交平台，也不是复杂后台。",
-    closingCopy: "SportArc 只聚焦乒乓球用户真正需要的部分：动作反馈、比赛数据，以及值得保存的精彩片段。",
+    closingCopy: "SportArc 只聚焦运动用户真正需要的部分：动作反馈、比赛数据，以及值得保存的精彩片段。",
     socialTitle: "联系方式",
     contact: "支持邮箱：support@sportarc.ai",
     copyright: "© 2026 SportArc",
@@ -113,15 +114,15 @@ const COPY = {
     ]
   },
   "zh-TW": {
-    pageTitle: "SportArc - AI 桌球助手",
+    pageTitle: "SportArc - AI 運動助手",
     navCta: "App Store",
-    heroEyebrow: "AI 桌球助手",
+    heroEyebrow: "AI 運動助手",
     heroTitleA: "復盤比賽。",
     heroTitleB: "更快進步。",
     heroLead: "SportArc 用一部手機完成 AI 教練、比賽復盤和自動剪輯。訓練後、比賽後，把影片交給它，留下真正有用的結果。",
     appStore: "在 App Store 下載",
     statTitle: "一部手機就夠",
-    statText: "錄製、分析、匯出、回看，把桌球訓練進度放在同一個地方。",
+    statText: "錄製、分析、匯出、回看，把運動訓練進度放在同一個地方。",
     featuresKicker: "三個功能，一個流程",
     featuresTitle: "從原始影片，到清楚的下一步。",
     featuresCopy: "訓練或比賽結束後，選擇影片、執行分析，再回到結果頁查看數據、建議和可匯出的內容。",
@@ -130,7 +131,7 @@ const COPY = {
     galleryCopy: "左右滑動瀏覽錄製、AI 教練、比賽復盤和自動剪輯等核心介面。",
     closingKicker: "為真實訓練設計",
     closingTitle: "不是社群平台，也不是複雜後台。",
-    closingCopy: "SportArc 只聚焦桌球使用者真正需要的部分：動作回饋、比賽數據，以及值得保存的精彩片段。",
+    closingCopy: "SportArc 只聚焦運動使用者真正需要的部分：動作回饋、比賽數據，以及值得保存的精彩片段。",
     socialTitle: "聯絡方式",
     contact: "支援信箱：support@sportarc.ai",
     copyright: "© 2026 SportArc",
@@ -145,12 +146,12 @@ const COPY = {
     ]
   },
   de: {
-    pageTitle: "SportArc - KI-Assistent für Tischtennis",
+    pageTitle: "SportArc - KI-Assistent für Sport",
     navCta: "App Store",
-    heroEyebrow: "KI-Assistent für Tischtennis",
+    heroEyebrow: "KI-Assistent für Sport",
     heroTitleA: "Spiele auswerten.",
     heroTitleB: "Gezielter trainieren.",
-    heroLead: "SportArc macht aus einem Handyvideo AI-Coach-Feedback, Matchanalyse und Auto-Schnitt-Clips. Für Spielerinnen und Spieler, die nach dem Training konkrete Hinweise wollen.",
+    heroLead: "SportArc macht aus einem Handyvideo AI-Coach-Feedback, Matchanalyse und Auto-Schnitt-Clips. Für Sportlerinnen und Sportler, die nach dem Training konkrete Hinweise wollen.",
     appStore: "Im App Store laden",
     statTitle: "Ein Smartphone reicht",
     statText: "Aufnehmen, analysieren, exportieren und deine Fortschritte an einem Ort verfolgen.",
@@ -162,7 +163,7 @@ const COPY = {
     galleryCopy: "Wische durch die wichtigsten Ansichten: Aufnahme, AI-Coach, Matchanalyse und Auto-Schnitt.",
     closingKicker: "Für echtes Training",
     closingTitle: "Kein Social Feed. Kein überladenes Dashboard.",
-    closingCopy: "SportArc konzentriert sich auf das, was Tischtennisspieler brauchen: Technikfeedback, Matchdaten und Clips, die man behalten möchte.",
+    closingCopy: "SportArc konzentriert sich auf das, was Sportlerinnen und Sportler brauchen: Technikfeedback, Matchdaten und Clips, die man behalten möchte.",
     socialTitle: "Kontakt",
     contact: "Support: support@sportarc.ai",
     copyright: "© 2026 SportArc",
@@ -177,9 +178,9 @@ const COPY = {
     ]
   },
   fr: {
-    pageTitle: "SportArc - Assistant IA de tennis de table",
+    pageTitle: "SportArc - Assistant IA pour le sport",
     navCta: "App Store",
-    heroEyebrow: "Assistant IA de tennis de table",
+    heroEyebrow: "Assistant IA pour le sport",
     heroTitleA: "Analysez vos matchs.",
     heroTitleB: "Progressez plus vite.",
     heroLead: "SportArc transforme une vidéo filmée au téléphone en retour Coach IA, en Analyse de match et en clips de Montage auto. Utile après l’entraînement comme après la compétition.",
@@ -194,7 +195,7 @@ const COPY = {
     galleryCopy: "Faites défiler les écrans clés : enregistrement, Coach IA, Analyse de match et Montage auto.",
     closingKicker: "Pensé pour l’entraînement",
     closingTitle: "Pas de réseau social. Pas de tableau de bord inutile.",
-    closingCopy: "SportArc se concentre sur l’essentiel pour les joueurs de tennis de table : retour technique, données de match et clips à conserver.",
+    closingCopy: "SportArc se concentre sur l’essentiel pour les sportifs : retour technique, données de match et clips à conserver.",
     socialTitle: "Contact",
     contact: "Support : support@sportarc.ai",
     copyright: "© 2026 SportArc",
@@ -209,15 +210,15 @@ const COPY = {
     ]
   },
   ja: {
-    pageTitle: "SportArc - 卓球向けAIアシスタント",
+    pageTitle: "SportArc - スポーツ向けAIアシスタント",
     navCta: "App Store",
-    heroEyebrow: "卓球向けAIアシスタント",
+    heroEyebrow: "スポーツ向けAIアシスタント",
     heroTitleA: "試合を振り返る。",
     heroTitleB: "練習を前に進める。",
-    heroLead: "SportArc はスマートフォンの動画から、AIコーチのフィードバック、試合レビュー、自動編集クリップを作ります。練習後にも試合後にも使える卓球アプリです。",
+    heroLead: "SportArc はスマートフォンの動画から、AIコーチのフィードバック、試合レビュー、自動編集クリップを作ります。練習後にも試合後にも使えるスポーツアプリです。",
     appStore: "App Storeでダウンロード",
     statTitle: "スマートフォン1台で完結",
-    statText: "撮影、分析、書き出し、振り返りまで、卓球の記録をひとつの場所にまとめます。",
+    statText: "撮影、分析、書き出し、振り返りまで、スポーツの記録をひとつの場所にまとめます。",
     featuresKicker: "3つの機能、1つの流れ",
     featuresTitle: "動画から、次の練習ポイントへ。",
     featuresCopy: "練習や試合のあとに動画を選び、分析を実行し、アプリ内で結果を確認します。",
@@ -226,7 +227,7 @@ const COPY = {
     galleryCopy: "録画、AIコーチ、試合レビュー、自動編集まで、主要画面を横にスワイプして確認できます。",
     closingKicker: "実際の練習のために",
     closingTitle: "SNSでも、複雑な管理画面でもありません。",
-    closingCopy: "SportArc が見るのは、卓球プレーヤーに必要なものだけ。技術フィードバック、試合データ、保存したいクリップです。",
+    closingCopy: "SportArc が見るのは、スポーツに取り組む人に必要なものだけ。技術フィードバック、試合データ、保存したいクリップです。",
     socialTitle: "お問い合わせ",
     contact: "サポート：support@sportarc.ai",
     copyright: "© 2026 SportArc",
@@ -241,15 +242,15 @@ const COPY = {
     ]
   },
   ko: {
-    pageTitle: "SportArc - 탁구 AI 어시스턴트",
+    pageTitle: "SportArc - 스포츠 AI 어시스턴트",
     navCta: "App Store",
-    heroEyebrow: "탁구 AI 어시스턴트",
+    heroEyebrow: "스포츠 AI 어시스턴트",
     heroTitleA: "경기를 리뷰하고.",
     heroTitleB: "더 빠르게 발전하세요.",
     heroLead: "SportArc는 휴대폰 영상 하나로 AI 코치 피드백, 경기 리뷰, 자동 편집 클립을 만들어 줍니다. 훈련 후에도, 경기 후에도 바로 확인할 수 있습니다.",
     appStore: "App Store에서 다운로드",
     statTitle: "휴대폰 하나면 충분합니다",
-    statText: "촬영, 분석, 내보내기, 다시 보기까지 탁구 기록을 한곳에서 관리합니다.",
+    statText: "촬영, 분석, 내보내기, 다시 보기까지 스포츠 기록을 한곳에서 관리합니다.",
     featuresKicker: "세 가지 기능, 하나의 흐름",
     featuresTitle: "원본 영상에서 다음 훈련 포인트까지.",
     featuresCopy: "훈련이나 경기 후 영상을 선택하고 분석을 실행한 뒤, 앱에서 결과를 확인하세요.",
@@ -258,7 +259,7 @@ const COPY = {
     galleryCopy: "녹화, AI 코치, 경기 리뷰, 자동 편집까지 주요 화면을 좌우로 넘겨 보세요.",
     closingKicker: "실제 훈련을 위해",
     closingTitle: "소셜 피드도, 복잡한 대시보드도 아닙니다.",
-    closingCopy: "SportArc는 탁구 선수에게 필요한 것에 집중합니다. 기술 피드백, 경기 데이터, 저장할 만한 클립입니다.",
+    closingCopy: "SportArc는 운동하는 사람에게 필요한 것에 집중합니다. 기술 피드백, 경기 데이터, 저장할 만한 클립입니다.",
     socialTitle: "문의",
     contact: "지원: support@sportarc.ai",
     copyright: "© 2026 SportArc",
@@ -481,6 +482,10 @@ function render(locale) {
   const copy = COPY[locale] || COPY.en;
   document.documentElement.lang = locale;
   document.title = copy.pageTitle;
+
+  const brand = document.querySelector("[data-brand]");
+  if (brand) brand.setAttribute("aria-label", APP_NAME);
+  setText("[data-brand-name]", APP_NAME);
 
   setText("[data-nav-cta]", copy.navCta);
   setText("[data-hero-eyebrow]", copy.heroEyebrow);
