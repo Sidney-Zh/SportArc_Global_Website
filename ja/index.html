@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#1769ff">
-    <meta name="description" content="SportArc はスマートフォン動画から AI コーチ、試合レビュー、自動編集を作るスポーツ向け AI アシスタントです。">
+    <meta name="theme-color" content="#343533">
+    <meta name="description" content="テニス、卓球、バドミントンの動画をハイライトに。iPhoneとiPadのSportArcで、卓球向けAIコーチと試合分析を体験できます。">
     <meta name="robots" content="index,follow">
-    <title>SportArc - スポーツ向けAIアシスタント</title>
+    <title>SportArc：AIコーチ・自動編集・試合分析</title>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="SportArc">
-    <meta property="og:title" content="SportArc - スポーツ向けAIアシスタント">
-    <meta property="og:description" content="SportArc はスマートフォン動画から AI コーチ、試合レビュー、自動編集を作るスポーツ向け AI アシスタントです。">
+    <meta property="og:title" content="SportArc：AIコーチ・自動編集・試合分析">
+    <meta property="og:description" content="SportArcが試合動画を、見返したくなるラリー、実践できるフィードバック、分かりやすい試合分析へ変えます。">
     <meta property="og:url" content="https://sportarc.ai/ja/">
     <meta property="og:image" content="https://sportarc.ai/AppIcon_cornor.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SportArc：AIコーチ・自動編集・試合分析">
+    <meta name="twitter:description" content="SportArcが試合動画を、見返したくなるラリー、実践できるフィードバック、分かりやすい試合分析へ変えます。">
+    <meta name="twitter:image" content="https://sportarc.ai/AppIcon_cornor.png">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -27,103 +31,277 @@
     <link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/">
     <link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/">
     <link rel="alternate" hreflang="x-default" href="https://sportarc.ai/">
-    <link rel="preload" as="image" href="/pictures/ja/startjp-640.webp" imagesrcset="/pictures/ja/startjp-420.webp 420w, /pictures/ja/startjp-640.webp 640w, /pictures/ja/startjp.webp 828w" imagesizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px" type="image/webp" fetchpriority="high">
-    <link rel="preload" as="image" href="/pictures/ja/matchreview1jp-640.webp" imagesrcset="/pictures/ja/matchreview1jp-420.webp 420w, /pictures/ja/matchreview1jp-640.webp 640w, /pictures/ja/matchreview1jp.webp 828w" imagesizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px" type="image/webp" fetchpriority="high">
-    <link rel="stylesheet" href="/assets/site.20260810.css">
+    <link rel="stylesheet" href="/assets/site.20260831.css?v=20260901-14">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://sportarc.ai/#website",
+            "url": "https://sportarc.ai/",
+            "name": "SportArc"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://sportarc.ai/#organization",
+            "name": "SportArc",
+            "url": "https://sportarc.ai/",
+            "logo": "https://sportarc.ai/AppIcon_cornor.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer support",
+              "email": "support@sportarc.ai"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
-  <body data-locale="ja">
+  <body class="home-v4" data-locale="ja" data-page="home">
+    <a class="skip-link" href="#main-content">メインコンテンツへ移動</a>
     <div class="site-shell">
       <header class="topbar">
-        <a class="brand" href="/" aria-label="SportArc" data-brand>
-          <img src="/assets/AppIcon_cornor-128.png" alt="" width="52" height="52" decoding="async" fetchpriority="high">
-          <span data-brand-name>SportArc</span>
-        </a>
-        <div class="nav-actions">
-          <select class="language-select" data-language-select aria-label="Language"></select>
+        <div class="container topbar-inner">
+          <a class="brand" href="/" aria-label="SportArcホーム">
+            <img src="/assets/AppIcon_cornor-128.png" alt="" width="46" height="46" decoding="async">
+            <span>SportArc</span>
+          </a>
+          <nav class="main-nav" id="site-navigation" data-mobile-nav aria-label="メインナビゲーション">
+            <a href="#features">機能</a>
+            <a href="/ja/support/">サポート</a>
+            <a class="mobile-store-link" href="https://apps.apple.com/app/id6768219425" aria-label="App StoreでSportArcをダウンロード">
+              <span>App Store</span><span aria-hidden="true">↗</span>
+            </a>
+          </nav>
+          <div class="nav-actions">
+            <div class="language-menu" data-language-menu>
+              <button class="language-menu-button" type="button" data-language-toggle aria-label="言語を選択" aria-haspopup="menu" aria-expanded="false">
+                <span class="language-label">日本語</span>
+                <span class="language-chevron" aria-hidden="true"></span>
+              </button>
+              <div class="language-popover" data-language-popover role="menu" hidden>
+                <a class="language-option" href="/" role="menuitem">English</a>
+                <a class="language-option" href="/zh-CN/" role="menuitem">简体中文</a>
+                <a class="language-option" href="/zh-TW/" role="menuitem">繁體中文</a>
+                <a class="language-option" href="/de/" role="menuitem">Deutsch</a>
+                <a class="language-option" href="/fr/" role="menuitem">Français</a>
+                <a class="language-option is-current" href="/ja/" role="menuitem" aria-current="page">日本語</a>
+                <a class="language-option" href="/ko/" role="menuitem">한국어</a>
+              </div>
+            </div>
+            <button class="mobile-menu-toggle" type="button" data-mobile-menu-toggle aria-label="メニュー" aria-controls="site-navigation" aria-expanded="false">
+              <span class="mobile-menu-line" aria-hidden="true"></span>
+              <span class="mobile-menu-line" aria-hidden="true"></span>
+              <span class="mobile-menu-line" aria-hidden="true"></span>
+            </button>
+            <a class="store-badge-link" href="https://apps.apple.com/app/id6768219425" aria-label="App StoreでSportArcをダウンロード">
+              <img class="store-badge" src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83" alt="App Storeからダウンロード" width="250" height="83" loading="eager" decoding="async">
+            </a>
+          </div>
         </div>
       </header>
 
-      <main>
-        <section class="hero">
-          <div class="hero-copy reveal">
-            <p class="eyebrow" data-hero-eyebrow>スポーツ向けAIアシスタント</p>
-            <h1>
-              <span data-hero-title-a>試合を振り返る。</span>
-              <span data-hero-title-b>練習を前に進める。</span>
-            </h1>
-            <p class="lead" data-hero-lead>SportArc はスマートフォンの動画から、AIコーチのフィードバック、試合レビュー、自動編集クリップを作ります。練習後にも試合後にも使えるスポーツアプリです。</p>
-            <div class="cta-row">
-              <a class="app-store-badge-link" href="https://apps.apple.com/app/id6768219425" data-app-store-button aria-label="Download on the App Store">
-                <img class="app-store-badge" data-app-store-badge src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83" alt="App Storeでダウンロード" width="250" height="83" loading="eager" decoding="async" fetchpriority="low">
-              </a>
-            </div>
+      <main id="main-content">
+        <section class="hero-band" aria-labelledby="hero-title">
+          <div class="container hero-copy">
+            <h1 id="hero-title">賢く鍛える<br><span>鋭くプレーする</span></h1>
+            <p class="hero-lead">スポーツ動画を、ハイライト、コーチングフィードバック、試合の洞察、そして次の一歩につながるプランへ。</p>
+            <a class="store-badge-link" href="https://apps.apple.com/app/id6768219425" aria-label="App StoreでSportArcをダウンロード">
+              <img class="store-badge" src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83" alt="App Storeからダウンロード" width="250" height="83" loading="eager" decoding="async">
+            </a>
           </div>
-
-          <div class="hero-visual reveal">
-            <div class="phone-stack" aria-hidden="true">
-              <div class="phone-shot secondary">
-                <picture>
-                  <source type="image/webp" srcset="/pictures/ja/startjp-420.webp 420w, /pictures/ja/startjp-640.webp 640w, /pictures/ja/startjp.webp 828w" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                  <img data-hero-image src="/pictures/ja/startjp.png" alt="" width="828" height="1792" loading="eager" decoding="async" fetchpriority="high" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                </picture>
-              </div>
-              <div class="phone-shot primary">
-                <picture>
-                  <source type="image/webp" srcset="/pictures/ja/matchreview1jp-420.webp 420w, /pictures/ja/matchreview1jp-640.webp 640w, /pictures/ja/matchreview1jp.webp 828w" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                  <img data-hero-image src="/pictures/ja/matchreview1jp.png" alt="" width="828" height="1792" loading="eager" decoding="async" fetchpriority="high" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                </picture>
-              </div>
-              <div class="floating-stat">
-                <strong data-stat-title>スマートフォン1台で完結</strong>
-                <p data-stat-text>撮影、分析、書き出し、振り返りまで、スポーツの記録をひとつの場所にまとめます。</p>
-              </div>
-            </div>
+          <div class="hero-device-stage" aria-label="SportArcのトレーニングプラン、試合レビュー、AIコーチ、試合概要、自動編集の画面">
+            <img src="/pictures/home/ja/4.png" srcset="/pictures/home/ja/4-160.jpg 160w, /pictures/home/ja/4-256.jpg 256w, /pictures/home/ja/4-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArcのパーソナライズされたトレーニングプラン" width="416" height="900" decoding="async">
+            <img src="/pictures/home/ja/6.png" srcset="/pictures/home/ja/6-160.jpg 160w, /pictures/home/ja/6-256.jpg 256w, /pictures/home/ja/6-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArcの試合レビュー概要" width="416" height="900" decoding="async">
+            <img src="/pictures/home/ja/8.png" srcset="/pictures/home/ja/8-160.jpg 160w, /pictures/home/ja/8-256.jpg 256w, /pictures/home/ja/8-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArcのAIテクニックスコア" width="416" height="900" fetchpriority="high" decoding="async">
+            <img src="/pictures/home/ja/1.png" srcset="/pictures/home/ja/1-160.jpg 160w, /pictures/home/ja/1-256.jpg 256w, /pictures/home/ja/1-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArcの試合概要" width="416" height="900" decoding="async">
+            <img src="/pictures/home/ja/2.png" srcset="/pictures/home/ja/2-160.jpg 160w, /pictures/home/ja/2-256.jpg 256w, /pictures/home/ja/2-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArcの自動編集ハイライト" width="416" height="900" decoding="async">
           </div>
         </section>
 
-        <section class="section">
-          <p class="section-kicker" data-features-kicker>3つの機能、1つの流れ</p>
-          <h2 class="section-title" data-features-title>動画から、次の練習ポイントへ。</h2>
-          <p class="section-copy" data-features-copy>練習や試合のあとに動画を選び、分析を実行し、アプリ内で結果を確認します。</p>
-          <div class="feature-grid" data-feature-grid></div>
-        </section>
-
-        <section class="section">
-          <p class="section-kicker" data-gallery-kicker>アプリ画面</p>
-          <h2 class="section-title" data-gallery-title>6つの画面で流れを確認。</h2>
-          <p class="section-copy" data-gallery-copy>録画、AIコーチ、試合レビュー、自動編集まで、主要画面を横にスワイプして確認できます。</p>
-          <div class="gallery" data-gallery></div>
-        </section>
-
-        <section class="section">
-          <div class="closing">
-            <div>
-              <p class="section-kicker" data-closing-kicker>実際の練習のために</p>
-              <h2 class="section-title" data-closing-title>SNSでも、複雑な管理画面でもありません。</h2>
-              <p class="section-copy" data-closing-copy>SportArc が見るのは、スポーツに取り組む人に必要なものだけ。技術フィードバック、試合データ、保存したいクリップです。</p>
+        <div id="features">
+          <section class="feature-section feature-auto" aria-labelledby="auto-cut-title">
+            <div class="container auto-layout">
+              <div class="auto-copy reveal">
+                <h2 id="auto-cut-title">編集なしで、ハイライトを。</h2>
+                <p>プレーのない時間を取り除き、最高の瞬間だけを残します。</p>
+                <ul class="sport-names" aria-label="自動編集に対応するスポーツ">
+                  <li>テニス</li>
+                  <li>バドミントン</li>
+                  <li>卓球</li>
+                </ul>
+              </div>
+              <div class="auto-device-stage reveal" data-device-rail tabindex="0" aria-label="iPhoneとiPadで見るSportArcの自動編集">
+                <figure class="auto-phone">
+                  <img src="/pictures/home/ja/1.png" alt="iPhoneで見るSportArcの卓球試合概要" width="416" height="900" loading="lazy" decoding="async">
+                </figure>
+                <figure class="auto-pad">
+                  <img src="/pictures/home/ja/ipad-2.png" alt="iPadで見るSportArcの自動編集ハイライト" width="1125" height="1500" loading="lazy" decoding="async">
+                </figure>
+              </div>
+              <div class="device-rail-cue" data-device-rail-cue>
+                <div class="device-rail-progress" data-device-progress aria-hidden="true"><span class="device-rail-progress-thumb" data-device-progress-thumb></span></div>
+                <p class="swipe-hint">スワイプして見る <span aria-hidden="true">→</span></p>
+              </div>
             </div>
-            <aside class="social-panel">
-              <p data-social-title>お問い合わせ</p>
-              <p data-contact>サポート：support@sportarc.ai</p>
-            </aside>
-          </div>
-        </section>
+          </section>
+
+          <section class="feature-section feature-match" aria-labelledby="match-analysis-title">
+            <div class="container section-heading reveal">
+              <h2 id="match-analysis-title">スコアの先にある試合が見える。</h2>
+              <p>対応する卓球の試合で、コース、打球パターン、局面、重要な瞬間を一段深く振り返れます。</p>
+            </div>
+            <div class="container match-device-stage reveal" data-device-rail tabindex="0" aria-label="iPadで見るSportArcの試合レビューデータ画面">
+              <img class="match-pad match-pad-primary" src="/pictures/home/ja/ipad-5.png" alt="iPadで見るSportArc試合レビューのコースマップ" width="1125" height="1500" loading="lazy" decoding="async">
+              <img class="match-pad match-pad-secondary" src="/pictures/home/ja/ipad-6.png" alt="iPadで見るSportArc試合レビューの打球・速度統計" width="1125" height="1500" loading="lazy" decoding="async">
+            </div>
+            <div class="device-rail-cue" data-device-rail-cue>
+              <div class="device-rail-progress" data-device-progress aria-hidden="true"><span class="device-rail-progress-thumb" data-device-progress-thumb></span></div>
+              <p class="swipe-hint">スワイプして見る <span aria-hidden="true">→</span></p>
+            </div>
+          </section>
+
+          <section class="feature-section feature-coach" aria-labelledby="ai-coach-title">
+            <div class="container section-heading reveal">
+              <h2 id="ai-coach-title">細部まで届くコーチング。</h2>
+              <p>対応する卓球トレーニングでは、動きを3Dで確認し、運動データを測定し、重要な瞬間を次の練習に生かせるフィードバックへ変えます。</p>
+            </div>
+            <div class="container coach-device-row reveal" data-device-rail tabindex="0" aria-label="SportArc AIコーチのテクニック画面">
+              <img src="/pictures/home/ja/9.png" alt="SportArc AIコーチの動作測定" width="416" height="900" loading="lazy" decoding="async">
+              <img src="/pictures/home/ja/3.png" alt="SportArc AIコーチの3Dテクニック表示" width="416" height="900" loading="lazy" decoding="async">
+              <img src="/pictures/home/ja/10.png" alt="SportArc AIコーチのフィードバック" width="416" height="900" loading="lazy" decoding="async">
+            </div>
+            <div class="device-rail-cue" data-device-rail-cue>
+              <div class="device-rail-progress" data-device-progress aria-hidden="true"><span class="device-rail-progress-thumb" data-device-progress-thumb></span></div>
+              <p class="swipe-hint">スワイプして見る <span aria-hidden="true">→</span></p>
+            </div>
+          </section>
+
+          <section class="feature-section why-section" aria-labelledby="why-title">
+            <div class="container why-layout">
+              <div class="why-device reveal">
+                <img src="/pictures/home/ja/4.png" alt="SportArcのパーソナライズされたトレーニングプラン" width="416" height="900" loading="lazy" decoding="async">
+              </div>
+              <div class="why-copy reveal">
+                <h2 id="why-title">SportArcを使う理由</h2>
+                <ol class="reason-list">
+                  <li><span>1</span><div><h3>ラリーを残し、空白を省く。</h3><p>自動編集が長いテニス、バドミントン、卓球の録画を、見やすいハイライト動画にまとめます。</p></div></li>
+                  <li><span>2</span><div><h3>明確なフィードバックで練習する。</h3><p>AIコーチが対応する卓球トレーニングを、動作データ、3D比較、実践的なテクニックの助言へ変えます。</p></div></li>
+                  <li><span>3</span><div><h3>試合の流れを振り返る。</h3><p>試合レビューで、対応する卓球のコース、パターン、局面、重要な瞬間を確認できます。</p></div></li>
+                  <li><span>4</span><div><h3>次の一歩に合わせたプラン。</h3><p>SportArc AIが、目標、重点、週間ペース、1回の時間、難易度、利用できる環境に合わせて専門的なトレーニングプランを作ります。</p></div></li>
+                </ol>
+              </div>
+            </div>
+          </section>
+
+          <section class="feature-section reviews-section" aria-labelledby="reviews-title">
+            <div class="container section-heading reveal">
+              <h2 id="reviews-title">App Storeの実際のレビュー</h2>
+            </div>
+            <div class="container reviews-row reveal">
+              <article class="review-card">
+                <h3>卓球愛好家にうれしいアプリ</h3>
+                <p class="review-meta"><span aria-label="5つ星のうち5つ星">★★★★★</span> 2026年6月2日 · 筋金入りの卓球ファン</p>
+                <p>“卓球好きとして、本当に宝物を見つけた気分です！SportArcはとても実用的です🏓。AIコーチがスイング動作を正確に分析し、3Dで再現してフォームを修正。試合動画もワンタップで自動編集され、専門的な振り返りレポートまで作成されます。コースや打球データも一目で分かり、個人コーチにお金をかけなくても科学的に練習できます。画面もシンプルで使いやすく、すべての卓球仲間に強くおすすめします！”</p>
+              </article>
+              <article class="review-card">
+                <h3>素晴らしいアプリ</h3>
+                <p class="review-meta"><span aria-label="5つ星のうち5つ星">★★★★★</span> 2026年6月10日 · Lambert a</p>
+                <p>“こんなものは今まで見たことがありません。スマートフォンだけでボールの落下位置や速度を追跡でき、3Dモデルが実際にフォーム改善に役立ちます。とても便利で、開発者の皆さんにはぜひ開発を続けてほしいです。大きな可能性を感じるので、これからも間違いなく応援します。”</p>
+              </article>
+              <article class="review-card">
+                <h3>なかなか良い</h3>
+                <p class="review-meta"><span aria-label="5つ星のうち5つ星">★★★★★</span> 2026年2月26日 · インゲン豆</p>
+                <p>“とても良いアプリです。精度も速度も確かに優れていて、それぞれの機能にも特徴があります。”</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="feature-section faq-section" aria-labelledby="faq-title">
+            <div class="container faq-layout">
+              <div class="faq-heading reveal">
+                <h2 id="faq-title">SportArcでのトレーニングについて</h2>
+              </div>
+              <div class="faq-list reveal">
+                <details>
+                  <summary>自動編集はどのスポーツに対応していますか？</summary>
+                  <p>自動編集はテニス、バドミントン、卓球の動画に対応しています。</p>
+                </details>
+                <details>
+                  <summary>AIコーチと試合レビューはすべてのスポーツで使えますか？</summary>
+                  <p>いいえ。AIコーチと試合レビューは現在、卓球に対応しています。公開する説明がアプリと一致するよう、この対応範囲を明確にしています。</p>
+                </details>
+                <details>
+                  <summary>試合レビューでは何が分かりますか？</summary>
+                  <p>対応する卓球の試合では、SportArcが技術データ、戦術データ、球速、コース、打球パターン、試合の局面、重要な瞬間をまとめ、最終スコアだけでは分からない内容まで振り返れます。</p>
+                </details>
+                <details>
+                  <summary>SportArc AIのトレーニングプランはどのように最適化されますか？</summary>
+                  <p>目標、トレーニングの重点、週の頻度、1回の時間、難易度、利用できる環境、任意で入力したけがの情報に加え、成長プロフィールへ追加したトレーニングや試合の各アクティビティを総合的に分析してプランを作成します。</p>
+                </details>
+                <details>
+                  <summary>サポートはどこで受けられますか？</summary>
+                  <p><a href="/ja/support/">サポートページ</a>をご覧いただくか、<a href="mailto:support@sportarc.ai">support@sportarc.ai</a>までメールでお問い合わせください。</p>
+                </details>
+              </div>
+            </div>
+          </section>
+        </div>
       </main>
 
       <footer class="footer">
-        <div class="footer-row">
-          <span data-copyright>© 2026 SportArc</span>
-          <nav class="footer-links" aria-label="Legal">
-            <a href="https://sportarc.ai/terms/" data-terms-link>Terms of Use</a>
-            <a href="https://sportarc.ai/privacy/" data-privacy-link>Privacy Policy</a>
+        <div class="container footer-cta">
+          <h2>毎回のセッションから、もっと見つける。</h2>
+          <a class="store-badge-link" href="https://apps.apple.com/app/id6768219425" aria-label="App StoreでSportArcをダウンロード">
+            <img class="store-badge" src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83" alt="App Storeからダウンロード" width="250" height="83" loading="lazy" decoding="async">
+          </a>
+        </div>
+        <div class="container footer-main">
+          <div class="footer-brand">
+            <a class="brand" href="/" aria-label="SportArcホーム">
+              <img src="/assets/AppIcon_cornor-128.png" alt="" width="46" height="46" loading="lazy" decoding="async">
+              <span>SportArc</span>
+            </a>
+            <p class="footer-summary">テニス、バドミントン、卓球の自動編集に対応。卓球向けのAIコーチと試合分析も提供します。</p>
+            <p class="footer-contact"><a href="mailto:support@sportarc.ai">support@sportarc.ai</a></p>
+          </div>
+          <nav class="footer-nav" aria-label="フッターナビゲーション">
+            <div class="footer-link-group">
+              <h3>SportArc</h3>
+              <a href="#features">機能</a>
+              <a href="/ja/support/">サポート</a>
+            </div>
+            <div class="footer-link-group">
+              <h3>法的情報</h3>
+              <a href="/terms/">利用規約</a>
+              <a href="/privacy/">プライバシーポリシー</a>
+            </div>
           </nav>
+          <div class="footer-language">
+            <h3>言語</h3>
+            <div class="language-menu" data-language-menu>
+              <button class="language-menu-button" type="button" data-language-toggle aria-label="言語を選択" aria-haspopup="menu" aria-expanded="false">
+                <span class="language-label">日本語</span>
+                <span class="language-chevron" aria-hidden="true"></span>
+              </button>
+              <div class="language-popover" data-language-popover role="menu" hidden>
+                <a class="language-option" href="/" role="menuitem">English</a>
+                <a class="language-option" href="/zh-CN/" role="menuitem">简体中文</a>
+                <a class="language-option" href="/zh-TW/" role="menuitem">繁體中文</a>
+                <a class="language-option" href="/de/" role="menuitem">Deutsch</a>
+                <a class="language-option" href="/fr/" role="menuitem">Français</a>
+                <a class="language-option is-current" href="/ja/" role="menuitem" aria-current="page">日本語</a>
+                <a class="language-option" href="/ko/" role="menuitem">한국어</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <p>Copyright © 2026 SportArc. All rights reserved.</p>
         </div>
       </footer>
     </div>
-
-    <noscript>
-      <p style="padding:24px;text-align:center">SportArc requires JavaScript for language switching on this page.</p>
-    </noscript>
-    <script src="/assets/site.20260810.js" defer></script>
+    <script src="/assets/site.20260831.js?v=20260901-5" defer></script>
   </body>
 </html>

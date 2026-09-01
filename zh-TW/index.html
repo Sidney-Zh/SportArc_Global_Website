@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#1769ff">
-    <meta name="description" content="SportArc 是面向運動訓練和比賽復盤的 AI 助手，支援 AI 教練、比賽復盤和自動剪輯。">
+    <meta name="theme-color" content="#343533">
+    <meta name="description" content="將網球、桌球和羽毛球影片變成精彩片段，並在 iPhone 和 iPad 上使用 SportArc 探索桌球 AI 教練與比賽洞察。">
     <meta name="robots" content="index,follow">
-    <title>SportArc - AI 運動助手</title>
+    <title>SportArc：AI 教練、自動剪輯與比賽分析</title>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="SportArc">
-    <meta property="og:title" content="SportArc - AI 運動助手">
-    <meta property="og:description" content="SportArc 是面向運動訓練和比賽復盤的 AI 助手，支援 AI 教練、比賽復盤和自動剪輯。">
+    <meta property="og:title" content="SportArc：AI 教練、自動剪輯與比賽分析">
+    <meta property="og:description" content="用 SportArc 把比賽影片變成值得重看的精彩回合、可執行的訓練回饋和清楚的比賽洞察。">
     <meta property="og:url" content="https://sportarc.ai/zh-TW/">
     <meta property="og:image" content="https://sportarc.ai/AppIcon_cornor.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SportArc：AI 教練、自動剪輯與比賽分析">
+    <meta name="twitter:description" content="用 SportArc 把比賽影片變成值得重看的精彩回合、可執行的訓練回饋和清楚的比賽洞察。">
+    <meta name="twitter:image" content="https://sportarc.ai/AppIcon_cornor.png">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -27,103 +31,277 @@
     <link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/">
     <link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/">
     <link rel="alternate" hreflang="x-default" href="https://sportarc.ai/">
-    <link rel="preload" as="image" href="/pictures/zh-hant/startzh-640.webp" imagesrcset="/pictures/zh-hant/startzh-420.webp 420w, /pictures/zh-hant/startzh-640.webp 640w, /pictures/zh-hant/startzh.webp 828w" imagesizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px" type="image/webp" fetchpriority="high">
-    <link rel="preload" as="image" href="/pictures/zh-hant/matchreview1zh-640.webp" imagesrcset="/pictures/zh-hant/matchreview1zh-420.webp 420w, /pictures/zh-hant/matchreview1zh-640.webp 640w, /pictures/zh-hant/matchreview1zh.webp 828w" imagesizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px" type="image/webp" fetchpriority="high">
-    <link rel="stylesheet" href="/assets/site.20260810.css">
+    <link rel="stylesheet" href="/assets/site.20260831.css?v=20260901-14">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://sportarc.ai/#website",
+            "url": "https://sportarc.ai/",
+            "name": "SportArc"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://sportarc.ai/#organization",
+            "name": "SportArc",
+            "url": "https://sportarc.ai/",
+            "logo": "https://sportarc.ai/AppIcon_cornor.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer support",
+              "email": "support@sportarc.ai"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
-  <body data-locale="zh-TW">
+  <body class="home-v4" data-locale="zh-TW" data-page="home">
+    <a class="skip-link" href="#main-content">跳到主要內容</a>
     <div class="site-shell">
       <header class="topbar">
-        <a class="brand" href="/" aria-label="SportArc" data-brand>
-          <img src="/assets/AppIcon_cornor-128.png" alt="" width="52" height="52" decoding="async" fetchpriority="high">
-          <span data-brand-name>SportArc</span>
-        </a>
-        <div class="nav-actions">
-          <select class="language-select" data-language-select aria-label="Language"></select>
+        <div class="container topbar-inner">
+          <a class="brand" href="/" aria-label="SportArc 首頁">
+            <img src="/assets/AppIcon_cornor-128.png" alt="" width="46" height="46" decoding="async">
+            <span>SportArc</span>
+          </a>
+          <nav class="main-nav" id="site-navigation" data-mobile-nav aria-label="主導覽">
+            <a href="#features">功能</a>
+            <a href="/zh-TW/support/">支援</a>
+            <a class="mobile-store-link" href="https://apps.apple.com/app/id6768219425" aria-label="在 App Store 下載 SportArc">
+              <span>App Store</span><span aria-hidden="true">↗</span>
+            </a>
+          </nav>
+          <div class="nav-actions">
+            <div class="language-menu" data-language-menu>
+              <button class="language-menu-button" type="button" data-language-toggle aria-label="選擇語言" aria-haspopup="menu" aria-expanded="false">
+                <span class="language-label">繁體中文</span>
+                <span class="language-chevron" aria-hidden="true"></span>
+              </button>
+              <div class="language-popover" data-language-popover role="menu" hidden>
+                <a class="language-option" href="/" role="menuitem">English</a>
+                <a class="language-option" href="/zh-CN/" role="menuitem">简体中文</a>
+                <a class="language-option is-current" href="/zh-TW/" role="menuitem" aria-current="page">繁體中文</a>
+                <a class="language-option" href="/de/" role="menuitem">Deutsch</a>
+                <a class="language-option" href="/fr/" role="menuitem">Français</a>
+                <a class="language-option" href="/ja/" role="menuitem">日本語</a>
+                <a class="language-option" href="/ko/" role="menuitem">한국어</a>
+              </div>
+            </div>
+            <button class="mobile-menu-toggle" type="button" data-mobile-menu-toggle aria-label="選單" aria-controls="site-navigation" aria-expanded="false">
+              <span class="mobile-menu-line" aria-hidden="true"></span>
+              <span class="mobile-menu-line" aria-hidden="true"></span>
+              <span class="mobile-menu-line" aria-hidden="true"></span>
+            </button>
+            <a class="store-badge-link" href="https://apps.apple.com/app/id6768219425" aria-label="在 App Store 下載 SportArc">
+              <img class="store-badge" src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/zh-tw?size=250x83" alt="在 App Store 下載" width="250" height="83" loading="eager" decoding="async">
+            </a>
+          </div>
         </div>
       </header>
 
-      <main>
-        <section class="hero">
-          <div class="hero-copy reveal">
-            <p class="eyebrow" data-hero-eyebrow>AI 運動助手</p>
-            <h1>
-              <span data-hero-title-a>復盤比賽。</span>
-              <span data-hero-title-b>更快進步。</span>
-            </h1>
-            <p class="lead" data-hero-lead>SportArc 用一部手機完成 AI 教練、比賽復盤和自動剪輯。訓練後、比賽後，把影片交給它，留下真正有用的結果。</p>
-            <div class="cta-row">
-              <a class="app-store-badge-link" href="https://apps.apple.com/app/id6768219425" data-app-store-button aria-label="Download on the App Store">
-                <img class="app-store-badge" data-app-store-badge src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/zh-tw?size=250x83" alt="在 App Store 下載" width="250" height="83" loading="eager" decoding="async" fetchpriority="low">
-              </a>
-            </div>
+      <main id="main-content">
+        <section class="hero-band" aria-labelledby="hero-title">
+          <div class="container hero-copy">
+            <h1 id="hero-title">練得更聰明<br><span>打得更出色</span></h1>
+            <p class="hero-lead">把運動影片變成精彩片段、訓練回饋、比賽洞察，以及下一步訓練計畫。</p>
+            <a class="store-badge-link" href="https://apps.apple.com/app/id6768219425" aria-label="在 App Store 下載 SportArc">
+              <img class="store-badge" src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/zh-tw?size=250x83" alt="在 App Store 下載" width="250" height="83" loading="eager" decoding="async">
+            </a>
           </div>
-
-          <div class="hero-visual reveal">
-            <div class="phone-stack" aria-hidden="true">
-              <div class="phone-shot secondary">
-                <picture>
-                  <source type="image/webp" srcset="/pictures/zh-hant/startzh-420.webp 420w, /pictures/zh-hant/startzh-640.webp 640w, /pictures/zh-hant/startzh.webp 828w" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                  <img data-hero-image src="/pictures/zh-hant/startzh.png" alt="" width="828" height="1792" loading="eager" decoding="async" fetchpriority="high" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                </picture>
-              </div>
-              <div class="phone-shot primary">
-                <picture>
-                  <source type="image/webp" srcset="/pictures/zh-hant/matchreview1zh-420.webp 420w, /pictures/zh-hant/matchreview1zh-640.webp 640w, /pictures/zh-hant/matchreview1zh.webp 828w" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                  <img data-hero-image src="/pictures/zh-hant/matchreview1zh.png" alt="" width="828" height="1792" loading="eager" decoding="async" fetchpriority="high" sizes="(max-width: 560px) 68vw, (max-width: 900px) 36vw, 390px">
-                </picture>
-              </div>
-              <div class="floating-stat">
-                <strong data-stat-title>一部手機就夠</strong>
-                <p data-stat-text>錄製、分析、匯出、回看，把運動訓練進度放在同一個地方。</p>
-              </div>
-            </div>
+          <div class="hero-device-stage" aria-label="SportArc 訓練計畫、比賽復盤、AI 教練、比賽總覽和自動剪輯畫面">
+            <img src="/pictures/home/zh-TW/4.png" srcset="/pictures/home/zh-TW/4-160.jpg 160w, /pictures/home/zh-TW/4-256.jpg 256w, /pictures/home/zh-TW/4-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArc 個人化訓練計畫" width="416" height="900" decoding="async">
+            <img src="/pictures/home/zh-TW/6.png" srcset="/pictures/home/zh-TW/6-160.jpg 160w, /pictures/home/zh-TW/6-256.jpg 256w, /pictures/home/zh-TW/6-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArc 比賽復盤摘要" width="416" height="900" decoding="async">
+            <img src="/pictures/home/zh-TW/8.png" srcset="/pictures/home/zh-TW/8-160.jpg 160w, /pictures/home/zh-TW/8-256.jpg 256w, /pictures/home/zh-TW/8-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArc AI 動作評分" width="416" height="900" fetchpriority="high" decoding="async">
+            <img src="/pictures/home/zh-TW/1.png" srcset="/pictures/home/zh-TW/1-160.jpg 160w, /pictures/home/zh-TW/1-256.jpg 256w, /pictures/home/zh-TW/1-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArc 比賽總覽" width="416" height="900" decoding="async">
+            <img src="/pictures/home/zh-TW/2.png" srcset="/pictures/home/zh-TW/2-160.jpg 160w, /pictures/home/zh-TW/2-256.jpg 256w, /pictures/home/zh-TW/2-416.jpg 416w" sizes="(max-width: 700px) 20vw, (max-width: 1217px) 22vw, 258px" alt="SportArc 自動剪輯精彩片段" width="416" height="900" decoding="async">
           </div>
         </section>
 
-        <section class="section">
-          <p class="section-kicker" data-features-kicker>三個功能，一個流程</p>
-          <h2 class="section-title" data-features-title>從原始影片，到清楚的下一步。</h2>
-          <p class="section-copy" data-features-copy>訓練或比賽結束後，選擇影片、執行分析，再回到結果頁查看數據、建議和可匯出的內容。</p>
-          <div class="feature-grid" data-feature-grid></div>
-        </section>
-
-        <section class="section">
-          <p class="section-kicker" data-gallery-kicker>App 內介面</p>
-          <h2 class="section-title" data-gallery-title>六張截圖，看完整使用流程。</h2>
-          <p class="section-copy" data-gallery-copy>左右滑動瀏覽錄製、AI 教練、比賽復盤和自動剪輯等核心介面。</p>
-          <div class="gallery" data-gallery></div>
-        </section>
-
-        <section class="section">
-          <div class="closing">
-            <div>
-              <p class="section-kicker" data-closing-kicker>為真實訓練設計</p>
-              <h2 class="section-title" data-closing-title>不是社群平台，也不是複雜後台。</h2>
-              <p class="section-copy" data-closing-copy>SportArc 只聚焦運動使用者真正需要的部分：動作回饋、比賽數據，以及值得保存的精彩片段。</p>
+        <div id="features">
+          <section class="feature-section feature-auto" aria-labelledby="auto-cut-title">
+            <div class="container auto-layout">
+              <div class="auto-copy reveal">
+                <h2 id="auto-cut-title"><span class="auto-title-line">精彩回合</span><span class="auto-title-line">無需手動剪輯</span></h2>
+                <p>去除死球時間，只保留您的精彩瞬間。</p>
+                <ul class="sport-names" aria-label="支援自動剪輯的運動項目">
+                  <li>網球</li>
+                  <li>羽毛球</li>
+                  <li>桌球</li>
+                </ul>
+              </div>
+              <div class="auto-device-stage reveal" data-device-rail tabindex="0" aria-label="SportArc 在 iPhone 和 iPad 上的自動剪輯畫面">
+                <figure class="auto-phone">
+                  <img src="/pictures/home/zh-TW/1.png" alt="iPhone 上的 SportArc 桌球比賽總覽" width="416" height="900" loading="lazy" decoding="async">
+                </figure>
+                <figure class="auto-pad">
+                  <img src="/pictures/home/zh-TW/ipad-2.png" alt="iPad 上的 SportArc 自動剪輯精彩片段" width="1125" height="1500" loading="lazy" decoding="async">
+                </figure>
+              </div>
+              <div class="device-rail-cue" data-device-rail-cue>
+                <div class="device-rail-progress" data-device-progress aria-hidden="true"><span class="device-rail-progress-thumb" data-device-progress-thumb></span></div>
+                <p class="swipe-hint">左右滑動查看 <span aria-hidden="true">→</span></p>
+              </div>
             </div>
-            <aside class="social-panel">
-              <p data-social-title>聯絡方式</p>
-              <p data-contact>支援信箱：support@sportarc.ai</p>
-            </aside>
-          </div>
-        </section>
+          </section>
+
+          <section class="feature-section feature-match" aria-labelledby="match-analysis-title">
+            <div class="container section-heading reveal">
+              <h2 id="match-analysis-title">比分之外，看懂整場比賽。</h2>
+              <p>深入查看已支援的桌球落點、擊球模式、比賽階段和關鍵時刻。</p>
+            </div>
+            <div class="container match-device-stage reveal" data-device-rail tabindex="0" aria-label="iPad 上的 SportArc 比賽復盤資料畫面">
+              <img class="match-pad match-pad-primary" src="/pictures/home/zh-TW/ipad-5.png" alt="iPad 上的 SportArc 比賽復盤落點圖" width="1125" height="1500" loading="lazy" decoding="async">
+              <img class="match-pad match-pad-secondary" src="/pictures/home/zh-TW/ipad-6.png" alt="iPad 上的 SportArc 比賽復盤擊球與速度統計" width="1125" height="1500" loading="lazy" decoding="async">
+            </div>
+            <div class="device-rail-cue" data-device-rail-cue>
+              <div class="device-rail-progress" data-device-progress aria-hidden="true"><span class="device-rail-progress-thumb" data-device-progress-thumb></span></div>
+              <p class="swipe-hint">左右滑動查看 <span aria-hidden="true">→</span></p>
+            </div>
+          </section>
+
+          <section class="feature-section feature-coach" aria-labelledby="ai-coach-title">
+            <div class="container section-heading reveal">
+              <h2 id="ai-coach-title">把每個細節都變成訓練回饋。</h2>
+              <p>在已支援的桌球訓練中，以 3D 查看動作、測量運動資料，並把關鍵時刻變成下一次訓練可用的回饋。</p>
+            </div>
+            <div class="container coach-device-row reveal" data-device-rail tabindex="0" aria-label="SportArc AI 教練動作分析畫面">
+              <img src="/pictures/home/zh-TW/9.png" alt="SportArc AI 教練動作測量資料" width="416" height="900" loading="lazy" decoding="async">
+              <img src="/pictures/home/zh-TW/3.png" alt="SportArc AI 教練 3D 動作畫面" width="416" height="900" loading="lazy" decoding="async">
+              <img src="/pictures/home/zh-TW/10.png" alt="SportArc AI 教練回饋" width="416" height="900" loading="lazy" decoding="async">
+            </div>
+            <div class="device-rail-cue" data-device-rail-cue>
+              <div class="device-rail-progress" data-device-progress aria-hidden="true"><span class="device-rail-progress-thumb" data-device-progress-thumb></span></div>
+              <p class="swipe-hint">左右滑動查看 <span aria-hidden="true">→</span></p>
+            </div>
+          </section>
+
+          <section class="feature-section why-section" aria-labelledby="why-title">
+            <div class="container why-layout">
+              <div class="why-device reveal">
+                <img src="/pictures/home/zh-TW/4.png" alt="SportArc 個人化訓練計畫" width="416" height="900" loading="lazy" decoding="async">
+              </div>
+              <div class="why-copy reveal">
+                <h2 id="why-title">為什麼使用 SportArc？</h2>
+                <ol class="reason-list">
+                  <li><span>1</span><div><h3>保留回合，移除空檔。</h3><p>自動剪輯把較長的網球、羽毛球和桌球錄影變成更俐落的精彩集錦。</p></div></li>
+                  <li><span>2</span><div><h3>用更清楚的回饋訓練。</h3><p>AI 教練把已支援的桌球訓練轉化為動作資料、3D 比較和可執行的技術回饋。</p></div></li>
+                  <li><span>3</span><div><h3>看懂比賽如何展開。</h3><p>比賽復盤呈現已支援的桌球落點、模式、階段和關鍵時刻。</p></div></li>
+                  <li><span>4</span><div><h3>為下一步量身打造的計畫。</h3><p>SportArc AI 會依照你的目標、訓練重點、每週節奏、單次時長、難度和現有條件建立專業訓練計畫。</p></div></li>
+                </ol>
+              </div>
+            </div>
+          </section>
+
+          <section class="feature-section reviews-section" aria-labelledby="reviews-title">
+            <div class="container section-heading reveal">
+              <h2 id="reviews-title">App Store 真實評論</h2>
+            </div>
+            <div class="container reviews-row reveal">
+              <article class="review-card">
+                <h3>乒乓球愛好者的福利</h3>
+                <p class="review-meta"><span aria-label="滿分 5 星中的 5 星">★★★★★</span> 2026年6月2日 · 乒乓球重度愛好者</p>
+                <p>“作為乒乓球愛好者，真的挖到寶了！SportArc太實用了🏓。AI 教練能精準分析揮拍動作，3D 還原糾錯，比賽影片一鍵自動剪輯、生成專業復盤報告，落點、擊球數據一目了然，不用花錢請私教也能科學練球，介面簡潔好操作，強烈推薦給所有球友！”</p>
+              </article>
+              <article class="review-card">
+                <h3>很棒的應用程式</h3>
+                <p class="review-meta"><span aria-label="滿分 5 星中的 5 星">★★★★★</span> 2026年6月10日 · Lambert a</p>
+                <p>“以前從沒見過這樣的應用程式。只用一部手機，它就能追蹤球的落點和速度，3D 模型也確實能幫助我改進動作。非常實用，也真心希望開發者繼續做下去。潛力巨大——我一定會繼續支持。”</p>
+              </article>
+              <article class="review-card">
+                <h3>不錯</h3>
+                <p class="review-meta"><span aria-label="滿分 5 星中的 5 星">★★★★★</span> 2026年2月26日 · 四季豆子啊</p>
+                <p>“非常不錯的 App，準確性和速度確實都很好，幾項功能也各有特色”</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="feature-section faq-section" aria-labelledby="faq-title">
+            <div class="container faq-layout">
+              <div class="faq-heading reveal">
+                <h2 id="faq-title">關於使用 SportArc 訓練的常見問題</h2>
+              </div>
+              <div class="faq-list reveal">
+                <details>
+                  <summary>哪些運動支援自動剪輯？</summary>
+                  <p>自動剪輯支援網球、羽毛球和桌球影片。</p>
+                </details>
+                <details>
+                  <summary>AI 教練和比賽復盤支援所有運動嗎？</summary>
+                  <p>不支援。AI 教練和比賽復盤目前支援桌球。我們會明確說明這項範圍，確保網站上的每項功能描述都與 App 一致。</p>
+                </details>
+                <details>
+                  <summary>我能從比賽復盤中瞭解什麼？</summary>
+                  <p>對於已支援的桌球比賽，SportArc 可協助您查看技術數據、戰術數據、球速、落點、擊球模式、比賽階段和關鍵時刻，瞭解比分之外的比賽表現。</p>
+                </details>
+                <details>
+                  <summary>SportArc AI 訓練計畫如何個人化？</summary>
+                  <p>訓練計畫會綜合分析您的目標、訓練重點、每週頻率、單次時長、難度、現有條件、您自願提供的傷病資訊，以及您選擇加入成長檔案的每次訓練和比賽活動。</p>
+                </details>
+                <details>
+                  <summary>我可以從哪裡取得協助？</summary>
+                  <p>請前往我們的<a href="/zh-TW/support/">支援頁面</a>，或寄信至 <a href="mailto:support@sportarc.ai">support@sportarc.ai</a>。</p>
+                </details>
+              </div>
+            </div>
+          </section>
+        </div>
       </main>
 
       <footer class="footer">
-        <div class="footer-row">
-          <span data-copyright>© 2026 SportArc</span>
-          <nav class="footer-links" aria-label="Legal">
-            <a href="https://sportarc.ai/terms/" data-terms-link>Terms of Use</a>
-            <a href="https://sportarc.ai/privacy/" data-privacy-link>Privacy Policy</a>
+        <div class="container footer-cta">
+          <h2>每次訓練，都看見更多。</h2>
+          <a class="store-badge-link" href="https://apps.apple.com/app/id6768219425" aria-label="在 App Store 下載 SportArc">
+            <img class="store-badge" src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/zh-tw?size=250x83" alt="在 App Store 下載" width="250" height="83" loading="lazy" decoding="async">
+          </a>
+        </div>
+        <div class="container footer-main">
+          <div class="footer-brand">
+            <a class="brand" href="/" aria-label="SportArc 首頁">
+              <img src="/assets/AppIcon_cornor-128.png" alt="" width="46" height="46" loading="lazy" decoding="async">
+              <span>SportArc</span>
+            </a>
+            <p class="footer-summary">支援網球、羽毛球和桌球自動剪輯，並為桌球提供 AI 教練與比賽洞察。</p>
+            <p class="footer-contact"><a href="mailto:support@sportarc.ai">support@sportarc.ai</a></p>
+          </div>
+          <nav class="footer-nav" aria-label="頁尾導覽">
+            <div class="footer-link-group">
+              <h3>瀏覽</h3>
+              <a href="#features">功能</a>
+              <a href="/zh-TW/support/">支援</a>
+            </div>
+            <div class="footer-link-group">
+              <h3>法律資訊</h3>
+              <a href="/terms/">使用條款</a>
+              <a href="/privacy/">隱私權政策</a>
+            </div>
           </nav>
+          <div class="footer-language">
+            <h3>語言</h3>
+            <div class="language-menu" data-language-menu>
+              <button class="language-menu-button" type="button" data-language-toggle aria-label="選擇語言" aria-haspopup="menu" aria-expanded="false">
+                <span class="language-label">繁體中文</span>
+                <span class="language-chevron" aria-hidden="true"></span>
+              </button>
+              <div class="language-popover" data-language-popover role="menu" hidden>
+                <a class="language-option" href="/" role="menuitem">English</a>
+                <a class="language-option" href="/zh-CN/" role="menuitem">简体中文</a>
+                <a class="language-option is-current" href="/zh-TW/" role="menuitem" aria-current="page">繁體中文</a>
+                <a class="language-option" href="/de/" role="menuitem">Deutsch</a>
+                <a class="language-option" href="/fr/" role="menuitem">Français</a>
+                <a class="language-option" href="/ja/" role="menuitem">日本語</a>
+                <a class="language-option" href="/ko/" role="menuitem">한국어</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container footer-bottom">
+          <p>Copyright © 2026 SportArc。保留所有權利。</p>
         </div>
       </footer>
     </div>
-
-    <noscript>
-      <p style="padding:24px;text-align:center">SportArc requires JavaScript for language switching on this page.</p>
-    </noscript>
-    <script src="/assets/site.20260810.js" defer></script>
+    <script src="/assets/site.20260831.js?v=20260901-5" defer></script>
   </body>
 </html>

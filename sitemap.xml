@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sportarc.ai/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://sportarc.ai/zh-CN/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://sportarc.ai/zh-TW/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://sportarc.ai/de/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://sportarc.ai/fr/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://sportarc.ai/ja/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://sportarc.ai/ko/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -84,6 +84,90 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/" />
+  </url>
+  <url>
+    <loc>https://sportarc.ai/support/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://sportarc.ai/de/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sportarc.ai/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/support/" />
+  </url>
+  <url>
+    <loc>https://sportarc.ai/zh-CN/support/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://sportarc.ai/de/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sportarc.ai/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/support/" />
+  </url>
+  <url>
+    <loc>https://sportarc.ai/zh-TW/support/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://sportarc.ai/de/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sportarc.ai/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/support/" />
+  </url>
+  <url>
+    <loc>https://sportarc.ai/de/support/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://sportarc.ai/de/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sportarc.ai/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/support/" />
+  </url>
+  <url>
+    <loc>https://sportarc.ai/fr/support/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://sportarc.ai/de/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sportarc.ai/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/support/" />
+  </url>
+  <url>
+    <loc>https://sportarc.ai/ja/support/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://sportarc.ai/de/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sportarc.ai/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/support/" />
+  </url>
+  <url>
+    <loc>https://sportarc.ai/ko/support/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://sportarc.ai/de/support/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sportarc.ai/fr/support/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sportarc.ai/ja/support/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sportarc.ai/ko/support/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sportarc.ai/support/" />
   </url>
   <url>
     <loc>https://sportarc.ai/terms/</loc>
