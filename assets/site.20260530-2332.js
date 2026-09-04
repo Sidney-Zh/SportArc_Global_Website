@@ -46,7 +46,7 @@ const APP_STORE_BADGES = {
   ko: "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83",
 };
 
-const APP_STORE_URL = "https://apps.apple.com/app/id6768219425";
+const APP_STORE_URL = "https://apps.apple.com/app/apple-store/id6768219425?pt=128180741&ct=website_global&mt=8";
 
 const COPY = {
   en: {

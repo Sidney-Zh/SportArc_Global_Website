@@ -20,6 +20,12 @@
 /assets/site.20260831.js
   Cache-Control: public, max-age=31536000, immutable
 
+/assets/analytics-consent.20260904.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/analytics-consent.20260904.js
+  Cache-Control: public, max-age=31536000, immutable
+
 /assets/AppIcon_cornor-128.png
   Cache-Control: public, max-age=31536000, immutable
 
