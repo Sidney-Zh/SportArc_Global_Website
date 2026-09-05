@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sportarc.ai/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-06</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/" />
@@ -87,7 +87,7 @@
   </url>
   <url>
     <loc>https://sportarc.ai/support/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sportarc.ai/support/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://sportarc.ai/zh-CN/support/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://sportarc.ai/zh-TW/support/" />
@@ -184,5 +184,33 @@
   <url>
     <loc>https://sportarc.ai/auto_renewal_subscription_agreement/</loc>
     <lastmod>2026-08-10</lastmod>
+  </url>
+  <url>
+    <loc>https://sportarc.ai/features/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sportarc.ai/features/tennis-video-editor/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sportarc.ai/features/badminton-video-editor/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sportarc.ai/features/table-tennis-video-editor/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sportarc.ai/features/table-tennis-ai-coach/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sportarc.ai/features/table-tennis-match-analysis/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sportarc.ai/support/recording-guide/</loc>
+    <lastmod>2026-09-06</lastmod>
   </url>
 </urlset>

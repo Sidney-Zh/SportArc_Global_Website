@@ -1,0 +1,26 @@
+# SportArc
+
+> SportArc is a sports-video and training app for iPhone and iPad. Auto Cut quickly creates rally clips from tennis, badminton, and table tennis recordings. AI Coach provides table tennis technique feedback, and Match Review provides table tennis match data.
+
+Start with a phone recording and import it from Photos or Files. Recording requirements vary by sport and feature. AI Coach and Match Review currently support table tennis. Support for tennis and badminton is coming soon. These features are separate from Auto Cut and personalized training plans. Plus offers personalized training plans for all three sports. SportArc is free to download with in-app purchases; current limits and Plus options are available in the app.
+
+## Product and features
+
+- [SportArc](https://sportarc.ai/): Product overview and App Store download.
+- [Feature availability](https://sportarc.ai/features/): Compare the supported sports, workflows, and training uses.
+- [Tennis Auto Cut](https://sportarc.ai/features/tennis-video-editor/): Find, review, select, and export rallies from recorded tennis sessions.
+- [Badminton Auto Cut](https://sportarc.ai/features/badminton-video-editor/): Create rally clips from singles or doubles badminton recordings.
+- [Table tennis Auto Cut](https://sportarc.ai/features/table-tennis-video-editor/): Review and export table tennis rally clips.
+- [Table tennis AI Coach](https://sportarc.ai/features/table-tennis-ai-coach/): Analyze a supported stroke, inspect movement in 3D, and review technique feedback.
+- [Table tennis Match Review](https://sportarc.ai/features/table-tennis-match-analysis/): Review placements, shot and phase statistics, and a written match review.
+
+## Getting started
+
+- [Recording guide](https://sportarc.ai/support/recording-guide/): Sport-specific camera positions and requirements for Auto Cut, AI Coach, and Match Review.
+- [Support](https://sportarc.ai/support/): Help with recordings, analysis, account, and Plus.
+- [SportArc on the App Store](https://apps.apple.com/app/apple-store/id6768219425?pt=128180741&ct=website_global&mt=8): Download for iPhone or iPad and check current purchase information.
+
+## Optional
+
+- [Privacy Policy](https://sportarc.ai/privacy/): Global app and website privacy information.
+- [Terms of Use](https://sportarc.ai/terms/): Terms for using SportArc.

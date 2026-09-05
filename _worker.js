@@ -1,5 +1,46 @@
 const CANONICAL_ORIGIN = "https://sportarc.ai";
-const ENGLISH_ALIASES = new Set(["/en", "/en/", "/en/index.html"]);
+// Keep this finite list in sync with canonical pages in sitemap.xml.
+const CANONICAL_PATHS = [
+  "/",
+  "/zh-CN/",
+  "/zh-TW/",
+  "/de/",
+  "/fr/",
+  "/ja/",
+  "/ko/",
+  "/support/",
+  "/zh-CN/support/",
+  "/zh-TW/support/",
+  "/de/support/",
+  "/fr/support/",
+  "/ja/support/",
+  "/ko/support/",
+  "/terms/",
+  "/privacy/",
+  "/membership_service_agreement/",
+  "/auto_renewal_subscription_agreement/",
+  "/features/",
+  "/features/tennis-video-editor/",
+  "/features/badminton-video-editor/",
+  "/features/table-tennis-video-editor/",
+  "/features/table-tennis-ai-coach/",
+  "/features/table-tennis-match-analysis/",
+  "/support/recording-guide/"
+];
+const PAGE_ALIASES = new Map([["/index", "/"], ["/index.html", "/"], ["/en", "/"], ["/en/", "/"], ["/en/index.html", "/"]]);
+for (const pathname of CANONICAL_PATHS) {
+  PAGE_ALIASES.set(pathname.toLowerCase(), pathname);
+  if (pathname === "/") continue;
+  const stem = pathname.slice(0, -1);
+  for (const alias of [stem, `${stem}/index.html`, `${stem}/index`, `${stem}.html`]) {
+    PAGE_ALIASES.set(alias.toLowerCase(), pathname);
+  }
+}
+
+function canonicalPathFor(pathname) {
+  // Unknown paths and static assets keep their normal Assets behavior.
+  return PAGE_ALIASES.get(pathname.toLowerCase()) || pathname;
+}
 const PRIVACY_REGION_PATH = "/__sportarc/privacy-region";
 const EXPLICIT_CONSENT_COUNTRIES = new Set(["CH", "GB", "IS", "LI", "NO"]);
 
@@ -37,11 +78,7 @@ export default {
       );
     }
 
-    if (ENGLISH_ALIASES.has(url.pathname)) {
-      return permanentRedirect(url, "/");
-    }
-
-    const normalizedPath = url.pathname === "/index.html" ? "/" : url.pathname;
+    const normalizedPath = canonicalPathFor(url.pathname);
     if (url.protocol !== "https:" || url.hostname !== "sportarc.ai" || normalizedPath !== url.pathname) {
       return permanentRedirect(url, normalizedPath);
     }
