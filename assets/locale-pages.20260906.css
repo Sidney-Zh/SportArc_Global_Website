@@ -1,0 +1,94 @@
+/* Locale-specific readability; existing product components and motion remain shared. */
+/* Keep localized home media in document flow as in the verified English home. */
+.seo-home:is([data-locale="de"],[data-locale="fr"]) .hero-band{min-height:0;padding-bottom:64px}
+.seo-home:is([data-locale="de"],[data-locale="fr"]) .hero-device-stage{position:relative;inset:auto;transform:none;margin:12px auto 0}
+.content-page[data-locale="de"] :is(h1,h2,h3,summary,.content-link){hyphens:auto;overflow-wrap:break-word}
+.de-feature-links{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center;margin:20px 0}
+.home-v4 .de-feature-links a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px;font-size:17px}
+.de-support-entry{display:flex;flex-wrap:wrap;gap:12px 24px;margin:22px 0}
+.de-support-entry a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px}
+.content-language-links{display:flex;flex-wrap:wrap;gap:12px 20px;margin:12px 0 24px}
+.content-language-links a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline}
+@media(max-width:720px){.seo-home[data-locale="de"] .hero-copy h1{font-size:clamp(36px,10vw,52px)}.seo-home[data-locale="de"] .hero-copy{padding-block:38px 26px}.seo-home[data-locale="de"] .hero-device-stage{width:calc(100% - 32px);margin-top:4px}.seo-home[data-locale="de"] .hero-band{padding-bottom:46px}.seo-home[data-locale="de"] .hero-band::after{height:56px}}
+
+.content-page[data-locale="de"] .content-split + .content-split{margin-top:48px}
+
+/* French layouts follow the France research briefs. */
+.content-page[data-locale="fr"] :is(h1,h2,h3,summary,.content-link){overflow-wrap:break-word}
+.fr-feature-links{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center;margin:20px 0}
+.home-v4 .fr-feature-links a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px;font-size:17px}
+.fr-support-entry{display:flex;flex-wrap:wrap;gap:12px 24px;margin:22px 0}
+.fr-support-entry a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px}
+.content-page[data-locale="fr"] .content-split + .content-split{margin-top:48px}
+@media(max-width:720px){.seo-home[data-locale="fr"] .hero-copy h1{font-size:clamp(36px,10vw,52px)}.seo-home[data-locale="fr"] .hero-copy{padding-block:38px 26px}.seo-home[data-locale="fr"] .hero-device-stage{width:calc(100% - 32px);margin-top:4px}.seo-home[data-locale="fr"] .hero-band{padding-bottom:46px}.seo-home[data-locale="fr"] .hero-band::after{height:56px}}
+
+/* Japanese task paths and natural text wrapping. */
+.seo-home[data-locale="ja"] .hero-band{min-height:0;padding-bottom:64px}
+.seo-home[data-locale="ja"] .hero-device-stage{position:relative;inset:auto;transform:none;margin:12px auto 0}
+.content-page[data-locale="ja"] :is(h1,h2,h3,summary,.content-link){overflow-wrap:break-word;word-break:normal}
+.content-page[data-locale="ja"] .content-split + .content-split{margin-top:48px}
+.ja-feature-links{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center;margin:20px 0}
+.home-v4 .ja-feature-links a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px;font-size:17px}
+.ja-support-entry{display:flex;flex-wrap:wrap;gap:12px 24px;margin:22px 0}
+.ja-support-entry a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:720px){.seo-home[data-locale="ja"] .hero-copy h1{font-size:clamp(34px,9vw,48px)}.seo-home[data-locale="ja"] .hero-copy{padding-block:38px 26px}.seo-home[data-locale="ja"] .hero-device-stage{width:calc(100% - 32px);margin-top:4px}.seo-home[data-locale="ja"] .hero-band{padding-bottom:46px}.seo-home[data-locale="ja"] .hero-band::after{height:56px}}
+
+/* Prefer Japanese glyph forms for Japanese text without downloading fonts. */
+body[data-locale="ja"]{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
+
+/* Japanese headings need space between full-height glyphs. */
+.home-v4[data-locale="ja"] .hero-copy h1,.home-v4[data-locale="ja"] .support-hero h1,.content-page[data-locale="ja"] h1{line-height:1.22;letter-spacing:-.025em}
+.content-page[data-locale="ja"] h1{font-size:clamp(34px,4.3vw,60px)}
+body[data-locale="ja"] .ja-title-phrase{display:inline-block;max-width:100%}
+@media(max-width:720px){.home-v4[data-locale="ja"] .support-hero h1{font-size:42px}}
+
+/* Korean task links and natural document flow; typography verified separately. */
+.seo-home[data-locale="ko"] .hero-band{min-height:0;padding-bottom:64px}
+.seo-home[data-locale="ko"] .hero-device-stage{position:relative;inset:auto;transform:none;margin:12px auto 0}
+.content-page[data-locale="ko"] .content-split + .content-split{margin-top:48px}
+.ko-feature-links{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center;margin:20px 0}
+.home-v4 .ko-feature-links a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px;font-size:17px}
+.ko-support-entry{display:flex;flex-wrap:wrap;gap:12px 24px;margin:22px 0}
+.ko-support-entry a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:720px){.seo-home[data-locale="ko"] .hero-copy h1{font-size:clamp(34px,9vw,48px)}.seo-home[data-locale="ko"] .hero-copy{padding-block:38px 26px}.seo-home[data-locale="ko"] .hero-device-stage{width:calc(100% - 32px);margin-top:4px}.seo-home[data-locale="ko"] .hero-band{padding-bottom:46px}.seo-home[data-locale="ko"] .hero-band::after{height:56px}}
+
+/* Korean word-based wrapping, with a narrow-container fallback. */
+.home-v4[data-locale="ko"] :is(h1,h2,h3,p,li,summary,figcaption,.content-link){word-break:keep-all;overflow-wrap:break-word}
+.home-v4[data-locale="ko"] .hero-copy h1,.home-v4[data-locale="ko"] .support-hero h1,.content-page[data-locale="ko"] h1{line-height:1.22;letter-spacing:-.025em}
+.content-page[data-locale="ko"] h1{font-size:clamp(34px,4.3vw,60px)}
+@media(max-width:720px){.home-v4[data-locale="ko"] .support-hero h1{font-size:42px}}
+
+/* Taiwan task navigation; CJK typography reviewed with the rendered system font. */
+.seo-home[data-locale="zh-TW"] .hero-band{min-height:0;padding-bottom:64px}
+.seo-home[data-locale="zh-TW"] .hero-device-stage{position:relative;inset:auto;transform:none;margin:12px auto 0}
+.content-page[data-locale="zh-TW"] .content-split + .content-split{margin-top:48px}
+.tw-feature-links{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center;margin:20px 0}
+.home-v4 .tw-feature-links a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px;font-size:17px}
+.tw-support-entry{display:flex;flex-wrap:wrap;gap:12px 24px;margin:22px 0}
+.tw-support-entry a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:720px){.seo-home[data-locale="zh-TW"] .hero-copy h1{font-size:clamp(34px,9vw,48px)}.seo-home[data-locale="zh-TW"] .hero-copy{padding-block:38px 26px}.seo-home[data-locale="zh-TW"] .hero-device-stage{width:calc(100% - 32px);margin-top:4px}.seo-home[data-locale="zh-TW"] .hero-band{padding-bottom:46px}.seo-home[data-locale="zh-TW"] .hero-band::after{height:56px}}
+
+/* Use Traditional Chinese glyphs; spacing checked in the actual rendered font. */
+body[data-locale="zh-TW"]{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","PingFang TC","Microsoft JhengHei",sans-serif}
+.home-v4[data-locale="zh-TW"] .hero-copy h1{line-height:1.16;letter-spacing:-.025em}
+.home-v4[data-locale="zh-TW"] .support-hero h1,.content-page[data-locale="zh-TW"] h1{line-height:1.23;letter-spacing:-.015em}
+.content-page[data-locale="zh-TW"] h1{font-size:clamp(34px,4.3vw,60px)}
+@media(max-width:720px){.home-v4[data-locale="zh-TW"] .support-hero h1{font-size:42px}}
+
+body[data-locale="zh-TW"] .support-hero .tw-title-phrase{display:inline-block;max-width:100%}
+
+/* International Simplified Chinese: scoped typography and task links. */
+body[data-locale="zh-CN"]{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","PingFang SC","Microsoft YaHei",sans-serif}
+.seo-home[data-locale="zh-CN"] .hero-band{min-height:0;padding-bottom:64px}
+.seo-home[data-locale="zh-CN"] .hero-device-stage{position:relative;inset:auto;transform:none;margin:12px auto 0}
+.home-v4[data-locale="zh-CN"] .hero-copy h1{line-height:1.16;letter-spacing:-.025em}
+.home-v4[data-locale="zh-CN"] .support-hero h1,.content-page[data-locale="zh-CN"] h1{line-height:1.23;letter-spacing:-.015em}
+.content-page[data-locale="zh-CN"] h1{font-size:clamp(34px,4.3vw,60px)}
+.content-page[data-locale="zh-CN"] .content-split + .content-split{margin-top:48px}
+.sc-feature-links{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center;margin:20px 0}
+.home-v4 .sc-feature-links a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px;font-size:17px}
+.sc-support-entry{display:flex;flex-wrap:wrap;gap:12px 24px;margin:22px 0}
+.sc-support-entry a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:720px){.seo-home[data-locale="zh-CN"] .hero-copy h1{font-size:clamp(34px,9vw,48px)}.seo-home[data-locale="zh-CN"] .hero-copy{padding-block:38px 26px}.seo-home[data-locale="zh-CN"] .hero-device-stage{width:calc(100% - 32px);margin-top:4px}.seo-home[data-locale="zh-CN"] .hero-band{padding-bottom:46px}.seo-home[data-locale="zh-CN"] .hero-band::after{height:56px}.home-v4[data-locale="zh-CN"] .support-hero h1{font-size:40px}}
+
+body[data-locale="zh-CN"] .support-hero .sc-title-phrase{display:inline-block;max-width:100%}

@@ -24,3 +24,75 @@ Start with a phone recording and import it from Photos or Files. Recording requi
 
 - [Privacy Policy](https://sportarc.ai/privacy/): Global app and website privacy information.
 - [Terms of Use](https://sportarc.ai/terms/): Terms for using SportArc.
+
+## Deutsch
+
+- [SportArc auf Deutsch](https://sportarc.ai/de/): Überblick über die drei Sportarten und die verfügbaren Funktionen.
+- [Funktionen](https://sportarc.ai/de/features/): Funktionen nach Sportart und gewünschtem Ergebnis.
+- [Tennis Auto-Schnitt](https://sportarc.ai/de/features/tennis-video-editor/): Ablauf, Ergebnisse und Aufnahmevorgaben dieser Funktion.
+- [Badminton Auto-Schnitt](https://sportarc.ai/de/features/badminton-video-editor/): Ablauf, Ergebnisse und Aufnahmevorgaben dieser Funktion.
+- [Tischtennis Auto-Schnitt](https://sportarc.ai/de/features/table-tennis-video-editor/): Ablauf, Ergebnisse und Aufnahmevorgaben dieser Funktion.
+- [Tischtennis KI-Coach](https://sportarc.ai/de/features/table-tennis-ai-coach/): Ablauf, Ergebnisse und Aufnahmevorgaben dieser Funktion.
+- [Tischtennis Matchanalyse](https://sportarc.ai/de/features/table-tennis-match-analysis/): Ablauf, Ergebnisse und Aufnahmevorgaben dieser Funktion.
+- [Aufnahmehilfe](https://sportarc.ai/de/support/recording-guide/): Kameraposition und Sichtanforderungen vor der Aufnahme.
+- [Hilfe](https://sportarc.ai/de/support/): Antworten zu Videos, Analyse, Konto und Plus.
+
+## Français
+
+- [SportArc en français](https://sportarc.ai/fr/): Clips pour trois sports ; Coach IA et Analyse de match pour le tennis de table.
+- [Fonctionnalités](https://sportarc.ai/fr/features/): Choisir une fonction selon le sport, la vidéo et le résultat souhaité.
+- [Montage vidéo de tennis](https://sportarc.ai/fr/features/tennis-video-editor/): Résultats, étapes et prise de vue de cette fonction.
+- [Montage vidéo de badminton](https://sportarc.ai/fr/features/badminton-video-editor/): Résultats, étapes et prise de vue de cette fonction.
+- [Montage vidéo de tennis de table](https://sportarc.ai/fr/features/table-tennis-video-editor/): Résultats, étapes et prise de vue de cette fonction.
+- [Coach IA tennis de table](https://sportarc.ai/fr/features/table-tennis-ai-coach/): Résultats, étapes et prise de vue de cette fonction.
+- [Analyse de match de tennis de table](https://sportarc.ai/fr/features/table-tennis-match-analysis/): Résultats, étapes et prise de vue de cette fonction.
+- [Guide vidéo](https://sportarc.ai/fr/support/recording-guide/): Préparer la prise de vue et la visibilité selon la fonction.
+- [Assistance](https://sportarc.ai/fr/support/): Vidéos, résultats, compte et Plus.
+
+## 日本語
+
+- [SportArc 日本語](https://sportarc.ai/ja/): テニス・バドミントン・卓球の自動編集。AIコーチと試合レビューは卓球に対応。
+- [機能一覧](https://sportarc.ai/ja/features/): 種目と、見たい結果から機能を選ぶ。
+- [テニス動画の自動編集](https://sportarc.ai/ja/features/tennis-video-editor/): 対応する動画、使い方、結果と撮影のポイント。
+- [バドミントン動画の自動編集](https://sportarc.ai/ja/features/badminton-video-editor/): 対応する動画、使い方、結果と撮影のポイント。
+- [卓球動画の自動編集](https://sportarc.ai/ja/features/table-tennis-video-editor/): 対応する動画、使い方、結果と撮影のポイント。
+- [卓球AIコーチ](https://sportarc.ai/ja/features/table-tennis-ai-coach/): 対応する動画、使い方、結果と撮影のポイント。
+- [卓球の試合レビュー](https://sportarc.ai/ja/features/table-tennis-match-analysis/): 対応する動画、使い方、結果と撮影のポイント。
+- [撮影ガイド](https://sportarc.ai/ja/support/recording-guide/): 機能と種目に合う撮影方法を確認する。
+- [ヘルプとサポート](https://sportarc.ai/ja/support/): 動画、分析結果、アカウント、Plus。
+
+## 한국어
+
+- [SportArc 한국어](https://sportarc.ai/ko/): iPhone과 iPad에서 테니스·배드민턴·탁구 영상 자동 편집. AI 코치와 경기 리뷰는 탁구에 제공됩니다.
+- [기능 안내](https://sportarc.ai/ko/features/): 종목과 원하는 결과에 맞는 기능을 고르세요.
+- [테니스 영상 자동 편집](https://sportarc.ai/ko/features/tennis-video-editor/): 지원하는 영상, 결과 화면, 사용 방법과 촬영 요령.
+- [배드민턴 영상 자동 편집](https://sportarc.ai/ko/features/badminton-video-editor/): 지원하는 영상, 결과 화면, 사용 방법과 촬영 요령.
+- [탁구 영상 자동 편집](https://sportarc.ai/ko/features/table-tennis-video-editor/): 지원하는 영상, 결과 화면, 사용 방법과 촬영 요령.
+- [탁구 AI 코치](https://sportarc.ai/ko/features/table-tennis-ai-coach/): 지원하는 영상, 결과 화면, 사용 방법과 촬영 요령.
+- [탁구 경기 리뷰](https://sportarc.ai/ko/features/table-tennis-match-analysis/): 지원하는 영상, 결과 화면, 사용 방법과 촬영 요령.
+- [촬영 가이드](https://sportarc.ai/ko/support/recording-guide/): 기능별 촬영 구도와 준비 방법을 확인하세요.
+- [도움말](https://sportarc.ai/ko/support/): 영상 가져오기, 분석 결과, 계정과 Plus.
+
+## 繁體中文（台灣）
+
+- [SportArc 繁體中文](https://sportarc.ai/zh-TW/): iPhone 與 iPad 運動影片 App，支援網球、羽球與桌球自動剪輯；AI 教練、動作對比與比賽復盤提供給桌球。
+- [功能總覽](https://sportarc.ai/zh-TW/features/): 依運動與影片用途選擇功能。
+- [網球影片自動剪輯](https://sportarc.ai/zh-TW/features/tennis-video-editor/): 支援影片、結果畫面、使用步驟與錄影要求。
+- [羽球影片自動剪輯](https://sportarc.ai/zh-TW/features/badminton-video-editor/): 支援影片、結果畫面、使用步驟與錄影要求。
+- [桌球影片自動剪輯](https://sportarc.ai/zh-TW/features/table-tennis-video-editor/): 支援影片、結果畫面、使用步驟與錄影要求。
+- [桌球 AI 教練](https://sportarc.ai/zh-TW/features/table-tennis-ai-coach/): 支援影片、結果畫面、使用步驟與錄影要求。
+- [桌球比賽影片分析](https://sportarc.ai/zh-TW/features/table-tennis-match-analysis/): 支援影片、結果畫面、使用步驟與錄影要求。
+- [錄影指南](https://sportarc.ai/zh-TW/support/recording-guide/): 各功能的錄影角度與準備步驟。
+- [幫助與客服](https://sportarc.ai/zh-TW/support/): 影片匯入、分析結果、帳號與 Plus 常見問題。
+
+## 简体中文（国际用户）
+
+- [SportArc 简体中文](https://sportarc.ai/zh-CN/): iPhone 和 iPad 运动视频 App。网球、羽毛球、乒乓球支持自动剪辑；AI 教练、动作对比和比赛复盘提供给乒乓球。
+- [功能总览](https://sportarc.ai/zh-CN/features/): 按运动与视频用途选择功能。
+- [网球视频自动剪辑](https://sportarc.ai/zh-CN/features/tennis-video-editor/): 视频输入、结果示例、使用步骤与拍摄要求。
+- [羽毛球视频自动剪辑](https://sportarc.ai/zh-CN/features/badminton-video-editor/): 视频输入、结果示例、使用步骤与拍摄要求。
+- [乒乓球视频自动剪辑](https://sportarc.ai/zh-CN/features/table-tennis-video-editor/): 视频输入、结果示例、使用步骤与拍摄要求。
+- [乒乓球 AI 教练](https://sportarc.ai/zh-CN/features/table-tennis-ai-coach/): 视频输入、结果示例、使用步骤与拍摄要求。
+- [乒乓球比赛复盘](https://sportarc.ai/zh-CN/features/table-tennis-match-analysis/): 视频输入、结果示例、使用步骤与拍摄要求。
+- [拍摄指南](https://sportarc.ai/zh-CN/support/recording-guide/): 手机位置、拍摄角度与导入准备。
+- [帮助与客服](https://sportarc.ai/zh-CN/support/): 视频导入、分析、账号与 Plus 常见问题。

@@ -55,3 +55,6 @@
 
 /assets/coach-demo.20260906.js
   Cache-Control: public, max-age=31536000, immutable
+
+/assets/locale-pages.20260906.css
+  Cache-Control: public, max-age=31536000, immutable
