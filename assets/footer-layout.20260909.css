@@ -17,3 +17,15 @@ body.home-v4 .footer .footer-summary { text-wrap: pretty; }
  body.home-v4 .footer .footer-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 22px; }
  body.home-v4 .footer .footer-nav .footer-link-group:first-child { grid-column: 1 / -1; }
 }
+
+/* Prevent language glyph clipping in the shared header control. */
+body.home-v4 .topbar .language-menu { flex-shrink: 0; }
+body.home-v4 .topbar .language-menu-button { line-height: 1.5; height: auto; min-height: 44px; }
+body.home-v4 .topbar .language-label { display:block; overflow:visible; line-height:1.5; flex-shrink:0; max-width:none; }
+body.home-v4 .topbar .language-popover { max-height:min(360px, calc(100dvh - 100px)); }
+
+/* Footer uses the same language control, opening upward into the page. */
+body.home-v4 .footer .footer-language .language-menu { width: fit-content; max-width: 100%; }
+body.home-v4 .footer .language-menu-button { line-height:1.5; min-height:44px; height:auto; }
+body.home-v4 .footer .language-label { display:block; overflow:visible; line-height:1.5; max-width:none; }
+body.home-v4 .footer .language-popover { left:0; right:auto; top:auto; bottom:calc(100% + 10px); width:220px; max-width:calc(100vw - 48px); max-height:min(360px,calc(100dvh - 100px)); }
