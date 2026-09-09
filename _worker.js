@@ -1,6 +1,7 @@
 const CANONICAL_ORIGIN = "https://sportarc.ai";
 // Keep this finite list in sync with canonical pages in sitemap.xml.
 const CANONICAL_PATHS = [
+  "/china/",
   "/",
   "/zh-CN/",
   "/zh-TW/",

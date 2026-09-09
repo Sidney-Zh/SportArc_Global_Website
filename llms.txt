@@ -14,6 +14,10 @@ Start with a phone recording and import it from Photos or Files. Recording requi
 - [Table tennis AI Coach](https://sportarc.ai/features/table-tennis-ai-coach/): Analyze a supported stroke, inspect movement in 3D, and review technique feedback.
 - [Table tennis Match Review](https://sportarc.ai/features/table-tennis-match-analysis/): Review placements, shot and phase statistics, and a written match review.
 
+## China edition
+
+- [迹时运动 — SportArc in China](https://sportarc.ai/china/): The China edition, its official website www.sportarc.cn, App Store download, domestic support and social profiles. Core sports features are shared with SportArc.
+
 ## Getting started
 
 - [Recording guide](https://sportarc.ai/support/recording-guide/): Sport-specific camera positions and requirements for Auto Cut, AI Coach, and Match Review.

@@ -1,0 +1,16 @@
+/* Homepage feature navigation and editorial heading breaks. */
+body.home-v4 .feature-section .feature-detail-links { display:flex; flex-wrap:wrap; gap:8px 24px; justify-content:center; margin:20px 0 0; }
+body.home-v4 .feature-auto .feature-detail-links { justify-content:flex-start; }
+body.home-v4 .feature-section .feature-detail-links a { display:inline-flex; align-items:center; min-height:44px; gap:7px; color:#0066cc; font-size:17px; text-decoration:none; }
+body.home-v4 .feature-section .feature-detail-links a::after { content:'›'; text-decoration:none; }
+body.home-v4 .feature-section .feature-detail-links a:hover { text-decoration:underline; text-underline-offset:4px; }
+body.home-v4 .feature-section .feature-detail-links a:focus-visible { outline:2px solid #0066cc; outline-offset:4px; }
+body.home-v4 .feature-section h2 { text-wrap:balance; }
+body.home-v4 .feature-section h2 .feature-title-line { display:block; }
+@media(max-width:720px) { body.home-v4 .feature-auto .feature-detail-links { justify-content:center; } body.home-v4 .feature-section h2 .feature-title-line { text-wrap:balance; } }
+
+body.home-v4 .feature-coach .section-heading h2 { max-width: 100%; }
+body.home-v4 .feature-section.feature-coach h2 .feature-title-line { display: inline; }
+body.home-v4 .feature-coach .section-heading p { text-wrap: pretty; }
+.feature-term { white-space: nowrap; }
+@media (max-width: 720px) { body.home-v4 .feature-section.feature-coach h2 .feature-title-line { display: block; } }
