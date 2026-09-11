@@ -1,19 +1,19 @@
-/* Desktop presentation: wide display areas, readable text, unchanged mobile. */
+/* Full-bleed backgrounds and navigation; bounded content, unchanged mobile. */
 @media (min-width: 981px) {
   body.home-v4 { --desktop-gutter: clamp(32px, 3vw, 80px); }
-  body.home-v4 .container,
-  body.home-v4.content-page .content-container {
-    width: calc(100% - var(--desktop-gutter) * 2);
+  body.home-v4 .container {
+    width: min(1280px, calc(100% - 64px));
     margin-inline: auto;
   }
-  body.home-v4 .topbar-inner { max-width: none; }
+  body.home-v4.content-page .content-container { width: min(1120px, calc(100% - 64px)); margin-inline: auto; }
+  body.home-v4 .topbar-inner { width: calc(100% - var(--desktop-gutter) * 2); max-width: none; }
   body.home-v4 .hero-band { min-height: 0; padding-bottom: 64px; }
   body.home-v4 .hero-device-stage {
     position: relative; inset: auto; transform: none;
-    width: 82%; margin: 16px auto 0;
+    width: min(1440px, 82%); margin: 16px auto 0;
   }
-  body.home-v4 .coach-device-row { max-width: none; width: 82%; }
-  body.home-v4 .match-device-stage { width: 86%; }
+  body.home-v4 .coach-device-row { max-width: 1280px; width: 82%; }
+  body.home-v4 .match-device-stage { width: min(1280px, 86%); }
   body.home-v4 .content-intro { max-width: 860px; }
   body.home-v4 .section-heading { max-width: 1000px; }
   body.home-v4 .footer-main, body.home-v4 .footer-bottom { max-width: none; }
