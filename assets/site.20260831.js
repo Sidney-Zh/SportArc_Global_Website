@@ -293,3 +293,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 window.addEventListener("hashchange", openLinkedAnswer);
+
+// Visual state only: CSS sticky positioning also works without JavaScript.
+const sharedTopbar = document.querySelector(".home-v4 .topbar");
+if (sharedTopbar) {
+  const updateTopbar = () => sharedTopbar.classList.toggle("is-scrolled", window.scrollY > 8);
+  updateTopbar();
+  window.addEventListener("scroll", updateTopbar, { passive: true });
+  window.addEventListener("pageshow", updateTopbar);
+}

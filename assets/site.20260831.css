@@ -1993,7 +1993,8 @@ a {
 }
 
 .home-v4 .site-shell {
-  overflow: hidden;
+  /* Clip decoration without trapping the sticky header in a scroll container. */
+  overflow: clip;
   background: var(--home-white);
 }
 
@@ -3966,4 +3967,10 @@ a {
   .home-v4 .topbar .language-label {
     max-width: 78px;
   }
+}
+
+/* Keep the shared navigation legible above scrolled page content. */
+.home-v4 .topbar.is-scrolled {
+  background: #202020;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 4px 16px rgba(0, 0, 0, .12);
 }
