@@ -64,3 +64,6 @@
 
 /assets/performance-20260914/*
   Cache-Control: public, max-age=31536000, immutable
+
+/assets/performance-20260914-v2/*
+  Cache-Control: public, max-age=31536000, immutable
